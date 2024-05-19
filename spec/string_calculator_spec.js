@@ -10,7 +10,7 @@ describe('Dice Calculator', function() {
 		expect(calculator.add('2,2,3,3')).toEqual(4);
 	});
 	it('should return 2 for [ 6, 6, 4, 4, 1, 3 ] ', function() {
-		expect(calculator.add('6, 6, 4, 4, 1, 3')).toEqual(2);
+		expect(calculator.add('6,6,4,4,1,3')).toEqual(2);
 	});
 
 
