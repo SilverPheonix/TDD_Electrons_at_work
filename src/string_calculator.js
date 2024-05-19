@@ -13,7 +13,7 @@ DiceCalculator.prototype.add = function(string_numbers) {
 					evennumbers.push(number[i]);
 				}
 			}
-			else{
+			else{ 
 	
 				odd += parseInt(number[i]);
 			}
